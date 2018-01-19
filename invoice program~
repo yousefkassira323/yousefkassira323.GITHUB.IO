@@ -1,0 +1,39 @@
+import util.java.Scanner
+public class Kassira_Invoice
+{
+	public static void main(String[] args)
+	{
+		final double EIGHT_SEVEN = 2.47;
+		final double EIGHT_NINE = 2.58;
+		final double NINE_ONE = 2.61; 
+		int quality; 
+		int gallons;
+		String member; 
+		
+		Scanner keyboard = new Scanner(System.in); 
+		
+		System.out.println("Are you a member?");
+		member = keyboard.nextLine();
+		
+		System.out.println("Quality of gas: ");
+		quality = keyboard.nextInt(); 
+		
+		System.out.println("Gallons Sold: ");
+		gallons = keyboard.nextInt();
+		
+		double gasPrice;
+		
+		switch (quality)
+		{
+			Case 87:
+			gasPrice = EIGHT_SEVEN;
+			break;
+			
+			Case 89:
+			gasPrice = EIGHT_NINE;
+			break;
+			
+			Case 91:
+			gasPrice = NINE_ONE; 
+			break;
+			

@@ -1,0 +1,58 @@
+import java.util.Scanner;
+import java.io.*; 
+public class Kassira_MadLibs
+{
+	public static void main(String[] args)
+			throws IOException
+	{
+			Scanner keyboard = new Scanner(System.in);
+			String filename; 
+			String savedMadLib = "SavedMadLib.txt";
+			
+			System.out.println("Enter a file name: ");
+			filename = keyboard.nextLine();
+			
+			PrintWriter outputFile = new PrintWriter(savedMadLib);
+			File file = new File(filename); 
+			Scanner inputFile = new Scanner(file); 
+			
+			String line = inputFile.nextLine();
+			
+			int iVar = Integer.parseInt(line);
+			
+			for(int x=0;  x< iVar; iVar--)
+			{
+				line = inputFile.nextLine(); 
+				System.out.println(line); 
+				line = keyboard.nextLine();
+				
+				outputFile.println(line); 				
+			}
+			outputFile.close();
+				
+			File fileNew = new File(savedMadLib);
+			Scanner newInputFile = new Scanner(fileNew);
+			
+			 String answers; 
+			 String story;
+			
+			while(newInputFile.hasNext())
+			{
+				answers = newInputFile.nextLine(); 
+				story = inputFile.nextLine();
+				
+				System.out.print(story  + answers);
+								
+			}
+			System.out.println(inputFile.nextLine());
+			inputFile.close();
+			
+			newInputFile.close(); 
+		}
+}
+			
+			
+			
+			
+
+

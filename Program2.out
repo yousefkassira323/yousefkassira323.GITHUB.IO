@@ -1,0 +1,41 @@
+Script started on Thu 20 Apr 2017 05:13:04 PM PDT
+]0;ynkassira@costello:~/cs140[01;32mynkassira@costello[01;34m ~/cs140 $[00m java L[KKassira_Program2q[Ka
+Enter Miles:
+1
+Enter Feet:
+100
+Enter Inches:
+10
+1 mile(s), 100 feet, 10 inche(s) converts to  1630.6 meter(s)
+]0;ynkassira@costello:~/cs140[01;32mynkassira@costello[01;34m ~/cs140 $[00m java Kassira_Program2a
+Enter Miles:
+25
+Enter Feet:
+460
+Enter Inches:
+6
+25 mile(s), 460 feet, 6 inche(s) converts to  40139.5 meter(s)
+]0;ynkassira@costello:~/cs140[01;32mynkassira@costello[01;34m ~/cs140 $[00m java Kassira_Program2a
+Enter Miles:
+0
+Enter Feet:
+1578
+Enter Inches:
+100
+0 mile(s), 1578 feet, 100 inche(s) converts to  480.7 meter(s)
+]0;ynkassira@costello:~/cs140[01;32mynkassira@costello[01;34m ~/cs140 $[00m java Kassira_Program2b
+Enter Meters: 
+173
+173meter(s) converts to 0mile(s), 570feet, 10.8inch(es).
+]0;ynkassira@costello:~/cs140[01;32mynkassira@costello[01;34m ~/cs140 $[00m java Kassira_Program2b
+Enter Meters: 
+3661
+3661meter(s) converts to 2mile(s), 1521feet, 3.6inch(es).
+]0;ynkassira@costello:~/cs140[01;32mynkassira@costello[01;34m ~/cs140 $[00m java Kassira_Program2b
+Enter Meters: 
+1020
+1020meter(s) converts to 0mile(s), 3366feet, 0.0inch(es).
+]0;ynkassira@costello:~/cs140[01;32mynkassira@costello[01;34m ~/cs140 $[00m exit
+exit
+
+Script done on Thu 20 Apr 2017 05:14:40 PM PDT

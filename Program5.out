@@ -1,0 +1,22 @@
+Script started on Tue 30 May 2017 11:52:12 PM PDT
+]0;ynkassira@costello:~/cs140[01;32mynkassira@costello[01;34m ~/cs140 $[00m java kas[K[K[KKassira_Grading.[K
+Ignoring student 65400 with invalid extra credit 6
+Ignoring student with invalid ID number 573S1
+Ignoring student 32911 with invalid grade -10.90
+
+     Mean Earned Grade: 78.12
+   Mean Enhanced Grade: 80.74
+
+    Mode Earned Grade:  0.00
+  Mode Enhanced Grade:  0.00
+
+  Minimum Earned Grade: 54.47
+Minimum Enhanced grade: 58.47
+
+  Maximum Earned Grade: 100.00
+Maximum Enhanced Grade: 105.00
+
+]0;ynkassira@costello:~/cs140[01;32mynkassira@costello[01;34m ~/cs140 $[00m exit
+exit
+
+Script done on Tue 30 May 2017 11:52:27 PM PDT

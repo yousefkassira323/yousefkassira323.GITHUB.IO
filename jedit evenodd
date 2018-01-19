@@ -1,0 +1,35 @@
+import java.util.Scanner; 
+public class Bored
+{
+		public static void main(String[] args)
+		{
+			final long SAVINGS = 1000000;
+			final long CHECKINGS = 5000; 
+			String account; 
+			
+			Scanner keyboard = new Scanner(System.in); 
+			
+			System.out.println("What account?");
+			account = keyboard.nextLine();
+			
+			if (account.equalsIgnoreCase("savings"))
+			{
+			System.out.println("Savings: " + SAVINGS);
+			}
+			if (account.equalsIgnoreCase("checking"))
+			{
+			System.out.println("Checkings: " + CHECKINGS);
+			}
+			
+			else
+			{
+			System.out.println("Boi what??????");
+			
+			}
+			}
+}
+		
+	
+			
+			 
+			

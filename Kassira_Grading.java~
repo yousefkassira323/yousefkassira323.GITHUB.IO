@@ -1,0 +1,42 @@
+import java.io.*;
+import java.util.Scanner; 
+public class Kassira_ArrayProcessing
+{
+		static String filename; 
+		static String line; 
+		static int[] array; 
+		public static int[] InputData()
+				throws IOException
+		{
+			Scanner keyboard = new Scanner(System.in);
+			System.out.print("Enter a filename: ");
+			filename = keyboard.nextLine(); 
+			File file = new File(filename);
+			Scanner inputFile = new Scanner(file);
+			
+			if(!file.exists())
+			{
+				System.out.println("File does not exist");
+				System.exit(0); 
+			}
+			
+			if(file.exists())
+			{			
+				line = inputFile.nextLine(); 
+				int numLines = Integer.parseInt(line); 
+				for(int i=0; i<numLines; i++)
+				{
+				line = inputFile.nextLine(); 
+				int list = Integer.parseInt(line); 
+				array[i] = list;
+				}
+			}
+			return array; 
+		}
+		
+		public static void main(String[] args)
+					throws IOException
+		{
+			InputData(); 
+		}
+}
